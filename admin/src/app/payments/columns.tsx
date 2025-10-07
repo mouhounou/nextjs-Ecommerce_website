@@ -17,7 +17,8 @@ import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 export type Payment = {
   id: string;
   amount: number;
-  username: string;
+  fullName: string;
+  userId?: string;
   email: string;
   status: "pending" | "processing" | "success" | "failed";
 };

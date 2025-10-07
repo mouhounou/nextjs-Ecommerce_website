@@ -125,8 +125,8 @@ const SingleUserPage = () => {
                 <Progress value={66} />
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-bold">Username:</span>
-                <span>john.doe</span>
+                <span className="font-bold">Full name:</span>
+                <span>john Doe</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Email:</span>
@@ -137,8 +137,12 @@ const SingleUserPage = () => {
                 <span>+1 234 5678</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-bold">Location:</span>
-                <span>New York, NY</span>
+                <span className="font-bold">Address:</span>
+                <span>123 Main St</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-bold">City:</span>
+                <span>Miami</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Role:</span>
@@ -149,10 +153,7 @@ const SingleUserPage = () => {
               Joined on 2025.01.01
             </p>
           </div>
-          {/* CARD LIST CONTAINER */}
-          <div className="bg-primary-foreground p-4 rounded-lg">
-            <CardList title="Recent Transactions" />
-          </div>
+
         </div>
         {/* RIGHT */}
         <div className="w-full xl:w-2/3 space-y-6">
