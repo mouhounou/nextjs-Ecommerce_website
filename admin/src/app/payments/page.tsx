@@ -1,18 +1,19 @@
-import { Payment,columns } from "./columns";
+import { Payment, columns } from "./columns";
 import { DataTable } from "./data-table";
 
 const getData = async (): Promise<Payment[]> => {
   return [
     {
       id: "728ed521",
+      userId: "728ed521",
       amount: 134,
       status: "pending",
       fullName: "John Doe",
-      userId: "728ed521",
       email: "johndoe@gmail.com",
     },
     {
       id: "728ed522",
+      userId: "728ed522",
       amount: 124,
       status: "success",
       fullName: "Jane Doe",
@@ -20,6 +21,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed523",
+      userId: "728ed523",
       amount: 167,
       status: "success",
       fullName: "Mike Galloway",
@@ -27,6 +29,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed524",
+      userId: "728ed524",
       amount: 156,
       status: "failed",
       fullName: "Minerva Robinson",
@@ -34,6 +37,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed525",
+      userId: "728ed525",
       amount: 145,
       status: "success",
       fullName: "Mable Clayton",
@@ -41,6 +45,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed526",
+      userId: "728ed526",
       amount: 189,
       status: "pending",
       fullName: "Nathan McDaniel",
@@ -48,6 +53,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed527",
+      userId: "728ed527",
       amount: 178,
       status: "success",
       fullName: "Myrtie Lamb",
@@ -55,6 +61,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed528",
+      userId: "728ed528",
       amount: 190,
       status: "success",
       fullName: "Leona Bryant",
@@ -62,6 +69,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed529",
+      userId: "728ed529",
       amount: 134,
       status: "failed",
       fullName: "Aaron Willis",
@@ -69,6 +77,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52a",
+      userId: "728ed52a",
       amount: 543,
       status: "success",
       fullName: "Joel Keller",
@@ -76,6 +85,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52b",
+      userId: "728ed52b",
       amount: 234,
       status: "pending",
       fullName: "Daniel Ellis",
@@ -83,6 +93,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52c",
+      userId: "728ed52c",
       amount: 345,
       status: "success",
       fullName: "Gordon Kennedy",
@@ -90,6 +101,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52d",
+      userId: "728ed52d",
       amount: 335,
       status: "failed",
       fullName: "Emily Hoffman",
@@ -97,6 +109,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52e",
+      userId: "728ed52e",
       amount: 664,
       status: "pending",
       fullName: "Jeffery Garrett",
@@ -104,6 +117,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52f",
+      userId: "728ed52f",
       amount: 332,
       status: "success",
       fullName: "Ralph Baker",
@@ -111,6 +125,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52g",
+      userId: "728ed52g",
       amount: 413,
       status: "failed",
       fullName: "Seth Fields",
@@ -118,6 +133,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52h",
+      userId: "728ed52h",
       amount: 345,
       status: "pending",
       fullName: "Julia Webb",
@@ -125,6 +141,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52i",
+      userId: "728ed52i",
       amount: 754,
       status: "success",
       fullName: "Gary Banks",
@@ -132,6 +149,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52j",
+      userId: "728ed52j",
       amount: 643,
       status: "failed",
       fullName: "Flora Chambers",
@@ -139,6 +157,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52k",
+      userId: "728ed52k",
       amount: 543,
       status: "pending",
       fullName: "Steve Hanson",
@@ -146,6 +165,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52l",
+      userId: "728ed52l",
       amount: 324,
       status: "success",
       fullName: "Lola Robinson",
@@ -153,6 +173,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52m",
+      userId: "728ed52m",
       amount: 123,
       status: "pending",
       fullName: "Ethel Waters",
@@ -160,6 +181,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52n",
+      userId: "728ed52n",
       amount: 422,
       status: "failed",
       fullName: "Grace Edwards",
@@ -167,6 +189,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52o",
+      userId: "728ed52o",
       amount: 712,
       status: "success",
       fullName: "Sallie Wong",
@@ -174,6 +197,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52p",
+      userId: "728ed52p",
       amount: 360,
       status: "success",
       fullName: "Bryan Gutierrez",
@@ -181,6 +205,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52q",
+      userId: "728ed52q",
       amount: 454,
       status: "pending",
       fullName: "Erik Rice",
@@ -188,6 +213,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52r",
+      userId: "728ed52r",
       amount: 382,
       status: "success",
       fullName: "Jordan Atkins",
@@ -195,6 +221,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52s",
+      userId: "728ed52s",
       amount: 328,
       status: "failed",
       fullName: "Bill Brewer",
@@ -202,6 +229,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52t",
+      userId: "728ed52t",
       amount: 250,
       status: "success",
       fullName: "Edwin Morris",
@@ -209,6 +237,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52u",
+      userId: "728ed52u",
       amount: 658,
       status: "success",
       fullName: "Harold Becker",
@@ -216,6 +245,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52v",
+      userId: "728ed52v",
       amount: 691,
       status: "success",
       fullName: "Hannah Rodriguez",
@@ -223,6 +253,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52w",
+      userId: "728ed52w",
       amount: 969,
       status: "success",
       fullName: "Zachary Beck",
@@ -230,6 +261,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52x",
+      userId: "728ed52x",
       amount: 617,
       status: "failed",
       fullName: "Frances Potter",
@@ -237,6 +269,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52y",
+      userId: "728ed52y",
       amount: 173,
       status: "success",
       fullName: "Raymond Murray",
@@ -244,6 +277,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed52z",
+      userId: "728ed52z",
       amount: 843,
       status: "success",
       fullName: "Adam Sherman",
@@ -251,6 +285,7 @@ const getData = async (): Promise<Payment[]> => {
     },
     {
       id: "728ed521f",
+      userId: "728ed521f",
       amount: 914,
       status: "pending",
       fullName: "Anne Cruz",
@@ -266,7 +301,7 @@ const PaymentsPage = async () => {
       <div className="mb-8 px-4 py-2 bg-secondary rounded-md">
         <h1 className="font-semibold">All Payments</h1>
       </div>
-      <DataTable columns={columns} data={data}/>
+      <DataTable columns={columns} data={data} />
     </div>
   );
 };

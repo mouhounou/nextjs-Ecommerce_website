@@ -62,7 +62,7 @@ const EditUser = () => {
                 name="fullName"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Username</FormLabel>
+                    <FormLabel>Full name</FormLabel>
                     <FormControl>
                       <Input {...field} />
                     </FormControl>
@@ -110,7 +110,7 @@ const EditUser = () => {
                 name="address"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Location</FormLabel>
+                    <FormLabel>Address</FormLabel>
                     <FormControl>
                       <Input {...field} />
                     </FormControl>
@@ -122,6 +122,22 @@ const EditUser = () => {
                 )}
               />
               <FormField
+                control={form.control}
+                name="city"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>City</FormLabel>
+                    <FormControl>
+                      <Input {...field} />
+                    </FormControl>
+                    <FormDescription>
+                      This is the public location.
+                    </FormDescription>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              {/* <FormField
                 control={form.control}
                 name="city"
                 render={({ field }) => (
@@ -144,7 +160,7 @@ const EditUser = () => {
                     <FormMessage />
                   </FormItem>
                 )}
-              />
+              /> */}
               <Button type="submit">Submit</Button>
             </form>
           </Form>
